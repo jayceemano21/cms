@@ -8,5 +8,6 @@ class NiceActionLog extends Model
 {
     public function nice_action(){
         return $this->belongsTo('App\NiceAction');
+        $id=0;
     }
 }
